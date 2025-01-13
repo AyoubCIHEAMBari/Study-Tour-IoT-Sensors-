@@ -4,13 +4,8 @@ The objective of this code if to sense the soil moisture through a capacitive so
 
 
 /*information and pin connections:
-
-- The I2C bus for the 1st BMP180 sensor and the LCD screen is: 
-                                   SCL ----> 22
-                                   SDA ----> 21
-                                   
-
-- the capacitive soil moisture sensor is connected to pin number            
+           
+- the capacitive soil moisture sensor is connected to pin number  34          
 */
 
 #include "ThingSpeak.h" //This is the Library for the cloud data website "ThingSpeak"
